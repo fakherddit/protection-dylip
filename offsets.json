@@ -1,0 +1,116 @@
+{
+  "version": "3.0.0",
+  "last_update": "2026-02-04",
+  "status": "active",
+  "patches": {
+    "anti_detection_1": {
+      "offset": "0x4947BF0",
+      "value": "0xD65F03C0D2800020",
+      "size": 8,
+      "enabled": true,
+      "description": "Main detection bypass"
+    },
+    "anti_detection_2": {
+      "offset": "0x2E2ABAC",
+      "value": "0xD65F03C0",
+      "size": 4,
+      "enabled": true,
+      "description": "RET patch"
+    },
+    "security_check_1": {
+      "offset": "0x506AFD4",
+      "value": "0xD65F03C0",
+      "size": 4,
+      "enabled": true,
+      "description": "Security validation"
+    },
+    "validation_1": {
+      "offset": "0x3109E74",
+      "value": "0xD65F03C0",
+      "size": 4,
+      "enabled": true,
+      "description": "Integrity check 1"
+    },
+    "validation_2": {
+      "offset": "0x3109E7C",
+      "value": "0xD65F03C0",
+      "size": 4,
+      "enabled": true,
+      "description": "Integrity check 2"
+    },
+    "validation_3": {
+      "offset": "0x3107658",
+      "value": "0xD65F03C0",
+      "size": 4,
+      "enabled": true,
+      "description": "Integrity check 3"
+    },
+    "memory_scan_1": {
+      "offset": "0x4BDE6E8",
+      "value": "0xD65F03C0",
+      "size": 4,
+      "enabled": true,
+      "description": "Memory scanner bypass"
+    },
+    "signature_check": {
+      "offset": "0xA19A74",
+      "value": "0xD65F03C0",
+      "size": 4,
+      "enabled": true,
+      "description": "Signature verification"
+    },
+    "advanced_check_1": {
+      "offset": "0x310A4E0",
+      "value": "0xD65F03C0",
+      "size": 4,
+      "enabled": true,
+      "description": "Advanced security 1"
+    },
+    "advanced_check_2": {
+      "offset": "0x3109E80",
+      "value": "0xD65F03C0",
+      "size": 4,
+      "enabled": true,
+      "description": "Advanced security 2"
+    },
+    "advanced_check_3": {
+      "offset": "0x3109E84",
+      "value": "0xD65F03C0",
+      "size": 4,
+      "enabled": true,
+      "description": "Advanced security 3"
+    },
+    "final_check_1": {
+      "offset": "0x5224F04",
+      "value": "0xD65F03C0",
+      "size": 4,
+      "enabled": true,
+      "description": "Final validation 1"
+    },
+    "final_check_2": {
+      "offset": "0x5224F0C",
+      "value": "0xD65F03C0",
+      "size": 4,
+      "enabled": true,
+      "description": "Final validation 2"
+    },
+    "final_check_3": {
+      "offset": "0x5224F08",
+      "value": "0xD65F03C0",
+      "size": 4,
+      "enabled": true,
+      "description": "Final validation 3"
+    },
+    "final_check_4": {
+      "offset": "0x5224EB4",
+      "value": "0xD65F03C0",
+      "size": 4,
+      "enabled": true,
+      "description": "Final validation 4"
+    }
+  },
+  "emergency": {
+    "kill_switch": false,
+    "message": "System operational"
+  }
+}
