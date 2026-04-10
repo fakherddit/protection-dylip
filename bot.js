@@ -1,4 +1,4 @@
-﻿const TelegramBot = require('node-telegram-bot-api');
+const TelegramBot = require('node-telegram-bot-api');
 const { Pool } = require('pg');
 
 // 1. رابط قاعدة البيانات ديالك في Koyeb
